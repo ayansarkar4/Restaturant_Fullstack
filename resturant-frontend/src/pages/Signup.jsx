@@ -38,7 +38,7 @@ const Signup = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const url = "https://restaturant-fullstack.onrender.com/api/v1/users/register";
+      const url = "https://restaturant-fullstack-1.onrender.com/api/v1/users/register";
       const data = new FormData();
       data.append("fullName", formData.fullName);
       data.append("email", formData.email);
